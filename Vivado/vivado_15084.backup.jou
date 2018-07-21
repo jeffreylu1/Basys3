@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jul 20 16:12:38 2018
+# Process ID: 15084
+# Current directory: C:/Users/Jeff/OneDrive/Git/Basys3/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4808 C:\Users\Jeff\OneDrive\Git\Basys3\Vivado\Basys3.xpr
+# Log file: C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/vivado.log
+# Journal file: C:/Users/Jeff/OneDrive/Git/Basys3/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.xpr
+close [ open C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/top.v w ]
+add_files C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/top.v
+close [ open C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/uart.v w ]
+add_files C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/uart.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+export_ip_user_files -of_objects  [get_files C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/uart.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/uart.v
+add_files -norecurse {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/led_control.v C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/uart_rx.v C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/RTL/uart_tx.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183795523A}
+set_property PROGRAM.FILE {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]

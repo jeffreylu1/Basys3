@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jul 20 23:01:47 2018
+# Process ID: 4000
+# Current directory: C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.sim/sim_1/behav/xsim/xsim.dir/segment_controller_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Jeff/OneDrive/Git/Basys3/Vivado/Basys3.sim/sim_1/behav/xsim/xsim.dir/segment_controller_tb_behav/webtalk/xsim_webtalk.tcl -notrace
